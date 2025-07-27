@@ -42,5 +42,5 @@ func QuickSortNaive[S ~[]E, E any](x S, cmp func(a, b E) int) {
 	}
 	pivotIdx := partition(x, cmp, false)
 	QuickSortNaive(x[:pivotIdx], cmp)
-	QuickSortNaive(x[pivotIdx:], cmp)
+	QuickSortNaive(x[pivotIdx+1:], cmp)
 }

@@ -10,7 +10,7 @@ func QuickSort[S ~[]E, E any](x S, cmp func(a, b E) int) {
 	}
 	pivotIdx := partition(x, cmp, true)
 	QuickSort(x[:pivotIdx], cmp)
-	QuickSort(x[pivotIdx:], cmp)
+	QuickSort(x[pivotIdx+1:], cmp)
 }
 
 func partition[S ~[]E, E any](x S, cmp func(a, b E) int, random bool) int {

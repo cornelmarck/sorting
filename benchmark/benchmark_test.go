@@ -12,7 +12,7 @@ import (
 func randomIntFunc(n int) []int {
 	x := make([]int, n)
 	for i := 0; i < n; i++ {
-		x[i] = rand.Intn(100)
+		x[i] = rand.Intn(n)
 	}
 	return x
 }

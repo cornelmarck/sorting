@@ -1,0 +1,2 @@
+PASS
+ok  	github.com/cornelmarck/sorting	0.394s

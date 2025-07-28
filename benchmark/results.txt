@@ -2,50 +2,68 @@ goos: darwin
 goarch: arm64
 pkg: github.com/cornelmarck/sorting/benchmark
 cpu: Apple M1
-BenchmarkSort/insertion_sort-8-8         	65834586	        17.97 ns/op
-BenchmarkSort/insertion_sort-16-8        	35051292	        34.33 ns/op
-BenchmarkSort/insertion_sort-32-8        	17505044	        69.07 ns/op
-BenchmarkSort/insertion_sort-64-8        	 8011509	       148.7 ns/op
-BenchmarkSort/insertion_sort-128-8       	 3309854	       347.1 ns/op
-BenchmarkSort/insertion_sort-256-8       	 1368417	       840.0 ns/op
-BenchmarkSort/insertion_sort-512-8       	  583156	      2064 ns/op
-BenchmarkSort/insertion_sort-1024-8      	  282355	      4243 ns/op
-BenchmarkSort/insertion_sort-2048-8      	  133941	      9144 ns/op
-BenchmarkSort/insertion_sort-4096-8      	   65025	     18357 ns/op
-BenchmarkSort/insertion_sort-8192-8      	   32679	     36930 ns/op
-BenchmarkSort/insertion_sort-16384-8     	   15920	     75312 ns/op
-BenchmarkSort/insertion_sort-32768-8     	    7873	    150622 ns/op
-BenchmarkSort/insertion_sort-65536-8     	       1	2327673000 ns/op
-BenchmarkSort/insertion_sort-131072-8    	       1	9324692541 ns/op
-BenchmarkSort/merge_sort-8-8             	13029138	        93.42 ns/op
-BenchmarkSort/merge_sort-16-8            	 5484886	       215.7 ns/op
-BenchmarkSort/merge_sort-32-8            	 2514925	       477.7 ns/op
-BenchmarkSort/merge_sort-64-8            	 1000000	      1062 ns/op
-BenchmarkSort/merge_sort-128-8           	  497570	      2394 ns/op
-BenchmarkSort/merge_sort-256-8           	  226654	      5289 ns/op
-BenchmarkSort/merge_sort-512-8           	  102223	     11723 ns/op
-BenchmarkSort/merge_sort-1024-8          	   47674	     25219 ns/op
-BenchmarkSort/merge_sort-2048-8          	   22292	     53981 ns/op
-BenchmarkSort/merge_sort-4096-8          	   10000	    114440 ns/op
-BenchmarkSort/merge_sort-8192-8          	    4912	    242457 ns/op
-BenchmarkSort/merge_sort-16384-8         	    2349	    512194 ns/op
-BenchmarkSort/merge_sort-32768-8         	    1113	   1075582 ns/op
-BenchmarkSort/merge_sort-65536-8         	     530	   2268506 ns/op
-BenchmarkSort/merge_sort-131072-8        	     254	   4772066 ns/op
-BenchmarkSort/quicksort-8-8              	 8747072	       137.0 ns/op
-BenchmarkSort/quicksort-16-8             	 3379560	       353.8 ns/op
-BenchmarkSort/quicksort-32-8             	 1338220	       895.5 ns/op
-BenchmarkSort/quicksort-64-8             	  579532	      2081 ns/op
-BenchmarkSort/quicksort-128-8            	  262224	      4585 ns/op
-BenchmarkSort/quicksort-256-8            	  120445	      9992 ns/op
-BenchmarkSort/quicksort-512-8            	   56311	     21468 ns/op
-BenchmarkSort/quicksort-1024-8           	   25363	     46020 ns/op
-BenchmarkSort/quicksort-2048-8           	   10000	    103243 ns/op
-BenchmarkSort/quicksort-4096-8           	    5716	    207651 ns/op
-BenchmarkSort/quicksort-8192-8           	    2773	    440317 ns/op
-BenchmarkSort/quicksort-16384-8          	    1305	    920218 ns/op
-BenchmarkSort/quicksort-32768-8          	     616	   2199660 ns/op
-BenchmarkSort/quicksort-65536-8          	     296	   4088278 ns/op
-BenchmarkSort/quicksort-131072-8         	     141	   8731469 ns/op
+BenchmarkSort/insertion_sort-8-8         	67924267	        17.31 ns/op
+BenchmarkSort/insertion_sort-16-8        	35227806	        36.84 ns/op
+BenchmarkSort/insertion_sort-32-8        	17928129	        67.71 ns/op
+BenchmarkSort/insertion_sort-64-8        	 7283365	       137.9 ns/op
+BenchmarkSort/insertion_sort-128-8       	 3307900	       357.0 ns/op
+BenchmarkSort/insertion_sort-256-8       	 1283494	       938.3 ns/op
+BenchmarkSort/insertion_sort-512-8       	  579796	      2150 ns/op
+BenchmarkSort/insertion_sort-1024-8      	  267940	      4477 ns/op
+BenchmarkSort/insertion_sort-2048-8      	  128433	      9325 ns/op
+BenchmarkSort/insertion_sort-4096-8      	   64306	     18578 ns/op
+BenchmarkSort/insertion_sort-8192-8      	   32446	     37057 ns/op
+BenchmarkSort/insertion_sort-16384-8     	   16076	     74670 ns/op
+BenchmarkSort/insertion_sort-32768-8     	    7958	    151570 ns/op
+BenchmarkSort/insertion_sort-65536-8     	       1	2292359250 ns/op
+BenchmarkSort/insertion_sort-131072-8    	       1	9643808167 ns/op
 PASS
-ok  	github.com/cornelmarck/sorting/benchmark	73.153s
+ok  	github.com/cornelmarck/sorting/benchmark	31.228s
+goos: darwin
+goarch: arm64
+pkg: github.com/cornelmarck/sorting/benchmark
+cpu: Apple M1
+BenchmarkSort/merge_sort-8-8         	11240931	        95.02 ns/op
+BenchmarkSort/merge_sort-16-8        	 5808153	       207.4 ns/op
+BenchmarkSort/merge_sort-32-8        	 2556200	       468.9 ns/op
+BenchmarkSort/merge_sort-64-8        	 1000000	      1072 ns/op
+BenchmarkSort/merge_sort-128-8       	  449104	      2472 ns/op
+BenchmarkSort/merge_sort-256-8       	  223353	      6228 ns/op
+BenchmarkSort/merge_sort-512-8       	  101728	     11803 ns/op
+BenchmarkSort/merge_sort-1024-8      	   47704	     25260 ns/op
+BenchmarkSort/merge_sort-2048-8      	   22034	     53792 ns/op
+BenchmarkSort/merge_sort-4096-8      	   10000	    115039 ns/op
+BenchmarkSort/merge_sort-8192-8      	    4952	    242346 ns/op
+BenchmarkSort/merge_sort-16384-8     	    2334	    512308 ns/op
+BenchmarkSort/merge_sort-32768-8     	    1113	   1077588 ns/op
+BenchmarkSort/merge_sort-65536-8     	     532	   2250370 ns/op
+BenchmarkSort/merge_sort-131072-8    	     253	   4706199 ns/op
+BenchmarkSort/merge_sort-262144-8    	     121	   9861799 ns/op
+BenchmarkSort/merge_sort-524288-8    	      57	  20620000 ns/op
+BenchmarkSort/merge_sort-1048576-8   	      27	  42604338 ns/op
+PASS
+ok  	github.com/cornelmarck/sorting/benchmark	25.746s
+goos: darwin
+goarch: arm64
+pkg: github.com/cornelmarck/sorting/benchmark
+cpu: Apple M1
+BenchmarkSort/quicksort-8-8         	 7871834	       146.5 ns/op
+BenchmarkSort/quicksort-16-8        	 3068374	       390.0 ns/op
+BenchmarkSort/quicksort-32-8        	 1294780	       925.7 ns/op
+BenchmarkSort/quicksort-64-8        	  572233	      2099 ns/op
+BenchmarkSort/quicksort-128-8       	  261141	      4593 ns/op
+BenchmarkSort/quicksort-256-8       	  123448	      9721 ns/op
+BenchmarkSort/quicksort-512-8       	   56997	     21038 ns/op
+BenchmarkSort/quicksort-1024-8      	   26353	     45475 ns/op
+BenchmarkSort/quicksort-2048-8      	   12438	     96976 ns/op
+BenchmarkSort/quicksort-4096-8      	    5910	    205934 ns/op
+BenchmarkSort/quicksort-8192-8      	    2773	    456615 ns/op
+BenchmarkSort/quicksort-16384-8     	    1288	    981029 ns/op
+BenchmarkSort/quicksort-32768-8     	     613	   1941767 ns/op
+BenchmarkSort/quicksort-65536-8     	     289	   4083798 ns/op
+BenchmarkSort/quicksort-131072-8    	     141	   8526663 ns/op
+BenchmarkSort/quicksort-262144-8    	      67	  17708723 ns/op
+BenchmarkSort/quicksort-524288-8    	      32	  36785195 ns/op
+BenchmarkSort/quicksort-1048576-8   	      14	  78309768 ns/op
+PASS
+ok  	github.com/cornelmarck/sorting/benchmark	29.059s

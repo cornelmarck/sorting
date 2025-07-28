@@ -19,7 +19,7 @@ func randomIntFunc(n int) []int {
 
 func BenchmarkSort(b *testing.B) {
 	minValue := 8
-	numPoints := 15
+	numPoints := 16
 
 	for algoName, sortFunc := range sorting.SortFuncs {
 		for i := range numPoints {
